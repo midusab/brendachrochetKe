@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, sans-serif;
+  --color-brand-pink: #e11d48;
+  --color-brand-blush: #fdf2f4;
+  --color-brand-rose: #be185d;
+}
+
+/* Global sharp luxury editorial aesthetic: Zero border-radius across all elements */
+*,
+*::before,
+*::after {
+  border-radius: 0px !important;
+}
+
+body {
+  font-family: "Plus Jakarta Sans", system-ui, sans-serif;
+  background-color: #FAF7F5;
+  color: #292524;
+}
+
+.font-serif {
+  font-family: "Cormorant Garamond", Georgia, serif;
+}
+
+/* Custom smooth scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF7F5;
+}
+::-webkit-scrollbar-thumb {
+  background: #f43f5e;
+  border-radius: 0px !important;
+}

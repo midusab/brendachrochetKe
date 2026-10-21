@@ -1,0 +1,6 @@
+{
+  "name": "Brenda Crochets — Luxury Handcrafted Knitwear",
+  "description": "Bespoke handcrafted crochet apparel, chunky cardigans, knit dresses, baby wear, and accessories with instant M-Pesa checkout and automated delivery confirmation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
