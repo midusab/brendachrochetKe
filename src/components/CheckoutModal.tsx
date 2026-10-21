@@ -66,7 +66,7 @@ export const CheckoutModal: React.FC<CheckoutModalProps> = ({
       return false;
     }
     if (!deliveryAddress.trim()) {
-      setFormError('Please enter your doorstep delivery address or pick-up instructions.');
+      setFormError('Please enter your doorstep delivery address or destination courier station.');
       return false;
     }
     setFormError('');
@@ -180,7 +180,7 @@ export const CheckoutModal: React.FC<CheckoutModalProps> = ({
                   placeholder="e.g. Brenda Mwangi"
                   value={customerName}
                   onChange={(e) => setCustomerName(e.target.value)}
-                  className="w-full text-xs p-2.5 bg-stone-50 border border-stone-300 rounded-none text-stone-900 focus:bg-white focus:outline-rose-600"
+                  className="w-full text-base sm:text-xs p-2.5 bg-stone-50 border border-stone-300 rounded-none text-stone-900 focus:bg-white focus:outline-rose-600"
                 />
               </div>
 
@@ -195,9 +195,9 @@ export const CheckoutModal: React.FC<CheckoutModalProps> = ({
                     placeholder="0712 345 678"
                     value={customerPhone}
                     onChange={(e) => setCustomerPhone(e.target.value)}
-                    className="w-full text-xs p-2.5 bg-stone-50 border border-stone-300 rounded-none text-stone-900 focus:bg-white focus:outline-rose-600"
+                    className="w-full text-base sm:text-xs p-2.5 bg-stone-50 border border-stone-300 rounded-none text-stone-900 focus:bg-white focus:outline-rose-600"
                   />
-                  <Smartphone className="w-4 h-4 text-emerald-600 absolute right-2.5 top-2.5 pointer-events-none" />
+                  <Smartphone className="w-4 h-4 text-emerald-600 absolute right-2.5 top-3 pointer-events-none" />
                 </div>
               </div>
 
@@ -211,7 +211,7 @@ export const CheckoutModal: React.FC<CheckoutModalProps> = ({
                   placeholder="name@example.com"
                   value={customerEmail}
                   onChange={(e) => setCustomerEmail(e.target.value)}
-                  className="w-full text-xs p-2.5 bg-stone-50 border border-stone-300 rounded-none text-stone-900 focus:bg-white focus:outline-rose-600"
+                  className="w-full text-base sm:text-xs p-2.5 bg-stone-50 border border-stone-300 rounded-none text-stone-900 focus:bg-white focus:outline-rose-600"
                 />
               </div>
             </div>
@@ -236,7 +236,7 @@ export const CheckoutModal: React.FC<CheckoutModalProps> = ({
                   const zone = DELIVERY_ZONES.find((z) => z.id === e.target.value);
                   if (zone) onSelectZone(zone);
                 }}
-                className="w-full text-xs font-medium p-2.5 bg-rose-50/60 border border-rose-300 rounded-none text-stone-900 focus:outline-rose-600"
+                className="w-full text-base sm:text-xs font-medium p-2.5 bg-rose-50/60 border border-rose-300 rounded-none text-stone-900 focus:outline-rose-600"
               >
                 {DELIVERY_ZONES.map((zone) => (
                   <option key={zone.id} value={zone.id}>
@@ -256,10 +256,10 @@ export const CheckoutModal: React.FC<CheckoutModalProps> = ({
               <input
                 type="text"
                 required
-                placeholder="e.g. Kilimani, Rose Avenue, Apt 4B or Wells Fargo Mombasa Road"
+                placeholder="e.g. House No., Apartment, Street, Estate, or Town Courier Station"
                 value={deliveryAddress}
                 onChange={(e) => setDeliveryAddress(e.target.value)}
-                className="w-full text-xs p-2.5 bg-stone-50 border border-stone-300 rounded-none text-stone-900 focus:bg-white focus:outline-rose-600"
+                className="w-full text-base sm:text-xs p-2.5 bg-stone-50 border border-stone-300 rounded-none text-stone-900 focus:bg-white focus:outline-rose-600"
               />
             </div>
 
@@ -272,7 +272,7 @@ export const CheckoutModal: React.FC<CheckoutModalProps> = ({
                 placeholder="e.g. Call upon arrival at security gate / baby gift wrap"
                 value={orderNotes}
                 onChange={(e) => setOrderNotes(e.target.value)}
-                className="w-full text-xs p-2.5 bg-stone-50 border border-stone-300 rounded-none text-stone-900 focus:bg-white focus:outline-rose-600"
+                className="w-full text-base sm:text-xs p-2.5 bg-stone-50 border border-stone-300 rounded-none text-stone-900 focus:bg-white focus:outline-rose-600"
               />
             </div>
           </div>

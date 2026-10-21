@@ -61,8 +61,8 @@ export const ProductCard: React.FC<ProductCardProps> = ({
           <span>{product.inStock ? 'Available' : 'Custom Order'}</span>
         </div>
 
-        {/* Quick actions overlay */}
-        <div className="absolute inset-x-3 bottom-3 flex items-center justify-between gap-2 opacity-0 group-hover:opacity-100 transition-opacity duration-200">
+        {/* Quick actions overlay - Always visible on touch screens, hover-reveal on desktop */}
+        <div className="absolute inset-x-2.5 bottom-2.5 flex items-center justify-between gap-1.5 opacity-100 sm:opacity-0 sm:group-hover:opacity-100 transition-opacity duration-200">
           <button
             onClick={(e) => {
               e.stopPropagation();

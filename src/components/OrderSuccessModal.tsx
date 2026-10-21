@@ -175,7 +175,7 @@ export const OrderSuccessModal: React.FC<OrderSuccessModalProps> = ({
               <div className="border-b border-rose-100 pb-4 flex justify-between items-start">
                 <div>
                   <h3 className="font-serif text-2xl font-bold text-stone-900">Brenda Crochets</h3>
-                  <p className="text-xs text-rose-700 font-medium">Artisanal Handcrafted Knitwear · Nairobi, Kenya</p>
+                  <p className="text-xs text-rose-700 font-medium">Artisanal Handcrafted Knitwear · 100% Online Boutique</p>
                   <p className="text-xs text-stone-500 mt-1">Order Date: {new Date(order.createdAt).toLocaleDateString()}</p>
                 </div>
                 <div className="text-right">

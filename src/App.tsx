@@ -328,7 +328,7 @@ export default function App() {
                   </div>
 
                   <h2 className="font-serif text-3xl sm:text-4xl font-bold text-stone-900 leading-tight">
-                    Every piece is crafted stitch by stitch in Brenda's Nairobi studio.
+                    Every piece is crafted stitch by stitch with authentic slow-fashion love.
                   </h2>
 
                   <p className="text-stone-600 text-sm sm:text-base leading-relaxed">
@@ -404,7 +404,7 @@ export default function App() {
                 </p>
                 <div className="pt-2 border-t border-stone-100 text-xs">
                   <p className="font-bold text-stone-900">Wangari Njoroge</p>
-                  <p className="text-stone-400">Kilimani, Nairobi · Verified Buyer</p>
+                  <p className="text-stone-400">Verified Online Buyer · Kenya</p>
                 </div>
               </div>
 
@@ -415,18 +415,18 @@ export default function App() {
                 </p>
                 <div className="pt-2 border-t border-stone-100 text-xs">
                   <p className="font-bold text-stone-900">Dr. Faith Achieng</p>
-                  <p className="text-stone-400">Kisumu · Verified Buyer</p>
+                  <p className="text-stone-400">Verified Online Buyer · Kenya</p>
                 </div>
               </div>
 
               <div className="bg-white p-6 rounded-none border border-rose-200 shadow-2xs space-y-3 text-left">
                 <div className="flex text-amber-400 text-xs">★★★★★</div>
                 <p className="text-xs sm:text-sm text-stone-700 leading-relaxed italic">
-                  "Brenda made my custom lace dress for our garden brunch in Karen. Sent my measurements, got the SMS confirmation, and it fit like a dream. Proudly Kenyan craftsmanship!"
+                  "Brenda made my custom lace dress for our garden brunch. Sent my measurements, got the SMS confirmation, and it fit like a dream. Proudly Kenyan craftsmanship!"
                 </p>
                 <div className="pt-2 border-t border-stone-100 text-xs">
                   <p className="font-bold text-stone-900">Mercy Kilonzo</p>
-                  <p className="text-stone-400">Karen, Nairobi · Custom Commission</p>
+                  <p className="text-stone-400">Verified Bespoke Client · Kenya</p>
                 </div>
               </div>
             </div>
@@ -443,7 +443,7 @@ export default function App() {
             <div className="space-y-3">
               <h3 className="font-serif text-2xl font-bold text-white">Brenda Crochets</h3>
               <p className="text-xs text-stone-400 leading-relaxed">
-                Handcrafted knitwear atelier in Nairobi, Kenya. Weaving cozy chunky cardigans, dresses, tops, and baby wears in signature blush pink palettes.
+                Artisanal handcrafted knitwear boutique. Weaving cozy chunky cardigans, dresses, tops, and baby wears in signature blush pink palettes with instant doorstep delivery across Kenya.
               </p>
               <div className="text-xs text-rose-400 font-mono font-medium">
                 Till: 849204 · Brenda Crochets
@@ -466,7 +466,7 @@ export default function App() {
               <ul className="space-y-1.5 text-stone-400">
                 <li><button onClick={() => setIsTrackerOpen(true)} className="hover:text-white cursor-pointer">Track Order Progress</button></li>
                 <li><button onClick={() => setIsBespokeOpen(true)} className="hover:text-white cursor-pointer">Custom Sizing Request</button></li>
-                <li><span className="text-stone-400">Delivery: Nairobi (24h) · Upcountry (48h)</span></li>
+                <li><span className="text-stone-400">Doorstep Delivery Across All Counties (24-48h)</span></li>
                 <li><span className="text-stone-400">Payment: Safaricom Lipa na M-Pesa</span></li>
               </ul>
             </div>

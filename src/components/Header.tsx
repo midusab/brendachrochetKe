@@ -27,7 +27,7 @@ export const Header: React.FC<HeaderProps> = ({
     <>
       {/* Top micro banner for delivery highlight */}
       <div className="bg-rose-950 text-rose-100 text-[11px] sm:text-xs py-1.5 px-4 text-center tracking-wider font-medium flex items-center justify-center gap-2 rounded-none">
-        <span>Handcrafted in Nairobi</span>
+        <span>100% Online Handcrafted Boutique</span>
         <span aria-hidden="true" className="text-rose-400">·</span>
         <span>Instant Lipa na M-Pesa Checkout</span>
         <span aria-hidden="true" className="text-rose-400">·</span>
